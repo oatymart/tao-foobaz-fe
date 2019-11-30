@@ -1,0 +1,59 @@
+{
+    "name": "tao-foobaz",
+    "version": "0.1.0",
+    "description": "TAO Dummy Package",
+    "files": [
+        "dist",
+        "src"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "test": "npx qunit-testrunner",
+        "build": "rollup --config ./build/rollup.config.js",
+        "build:watch": "rollup --config ./build/rollup.config.js --watch",
+        "lint": "eslint src/",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oatymart/tao-foobaz-fe.git"
+    },
+    "keywords": [
+        "tao",
+        "fe",
+        "library",
+        "core"
+    ],
+    "license": "GPL-2.0",
+    "bugs": {
+        "url": "https://github.com/oatymart/tao-foobaz-fe/issues"
+    },
+    "homepage": "https://github.com/oatymart/tao-foobaz-fe#readme",
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "@oat-sa/browserslist-config-tao": "^0.1.0",
+        "@oat-sa/expr-eval": "^1.3.0",
+        "@oat-sa/rollup-plugin-wildcard-external": "^0.1.0",
+        "@oat-sa/tao-qunit-testrunner": "^0.1.3",
+        "async": "0.2.10",
+        "eslint": "^5.16.0",
+        "eslint-plugin-es": "^1.4.0",
+        "eslint-plugin-jsdoc": "^4.8.3",
+        "fs-extra": "^8.1.0",
+        "handlebars": "1.3.0",
+        "jquery": "1.9.1",
+        "rollup": "^1.12.3",
+        "rollup-plugin-alias": "^1.5.2",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-copy": "^3.1.0",
+        "rollup-plugin-handlebars-plus": "^0.2.4",
+        "rollup-plugin-node-resolve": "^5.2.0"
+    },
+    "dependencies": {},
+    "browserslist": [
+        "extends @oat-sa/browserslist-config-tao"
+    ]
+}
