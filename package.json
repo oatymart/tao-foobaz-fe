@@ -1,6 +1,6 @@
 {
     "name": "@oat-sa-private/tao-foobaz",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "TAO Dummy Package",
     "files": [
         "dist",
