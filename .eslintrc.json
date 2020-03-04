@@ -66,6 +66,6 @@
       "prefer-spread" :               ["error"],
       "prefer-template" :             ["error"],
       "semi" :                        ["error", "always"],
-      "vars-on-top" :                 ["error"]
+      "vars-on-top" :                 ["warn"]
     }
   }
