@@ -26,3 +26,4 @@ Dummy extension for testing npm releasing
 4. chore: do a task
 5. yikes!: this will break
 6. merge commit 1
+7. merge commit 2
