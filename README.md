@@ -23,3 +23,4 @@ Dummy extension for testing npm releasing
 1. fix: a small fix
 2. feat: a medium feature
 3. feat(yeah): a yeah-scoped feature
+4. chore: do a task
