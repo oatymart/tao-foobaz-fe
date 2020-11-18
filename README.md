@@ -17,3 +17,7 @@ Dummy extension for testing npm releasing
 ## Lint code
 
 `npm run lint`
+
+## Test commits
+
+1. fix: a small fix
