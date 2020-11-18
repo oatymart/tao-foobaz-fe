@@ -21,3 +21,4 @@ Dummy extension for testing npm releasing
 ## Test commits
 
 1. fix: a small fix
+2. feat: a medium feature
