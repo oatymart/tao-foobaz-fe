@@ -25,3 +25,6 @@ Dummy extension for testing npm releasing
 3. feat(yeah): a yeah-scoped feature
 4. chore: do a task
 5. yikes!: this will break
+6. merge commit 1
+7. merge commit 2
+8. merge commit 3
