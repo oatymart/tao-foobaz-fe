@@ -28,3 +28,4 @@ Dummy extension for testing npm releasing
 6. merge commit 1
 7. merge commit 2
 8. merge commit 3
+9. feat(scope): one last check
