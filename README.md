@@ -30,3 +30,5 @@ Dummy extension for testing npm releasing
 8. merge commit 3
 9. feat(scope): one last check
 10. test: releasable with TER 2.0.0
+11. test: ghrelease command
+12. test: reporelease command
