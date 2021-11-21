@@ -22,4 +22,4 @@ jobs:
 
       - name: Check for bad protocol
         # exits with 0 if grep found term, 1 if not
-        run: grep -qc 'git+ssh' package-lock.json; test $? -ne 0
+        run: grep -qc 'git+ssh://' package-lock.json; test $? -ne 0 && echo "git+ssh:// found in package-lock.json" && exit 1
