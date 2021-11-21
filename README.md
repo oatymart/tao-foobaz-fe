@@ -33,3 +33,4 @@ Dummy extension for testing npm releasing
 11. test: ghrelease command
 12. test: reporelease command
 13. chore: release with --release-version
+14. test: remove phpParser changes
