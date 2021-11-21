@@ -16,7 +16,7 @@ jobs:
         uses: mansona/npm-lockfile-version@v1
         with:
           version: 1
-        
+
       - name: Check for eve
         # exits with 0 if grep found term, 1 if not
-        run: grep -qc 'eve@git' package-lock.json; test $? -eq 0
+        run: grep -qc 'git+ssh' package-lock.json; test $? -ne 0
