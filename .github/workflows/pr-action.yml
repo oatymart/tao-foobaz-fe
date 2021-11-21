@@ -1,9 +1,12 @@
-name: Package-lock police
+# Action to check for red flags in package-lock.json
+# 1. lockfileVersion: must be 1
+# 2. 'git+ssh' must not be present
+
+name: Package-lock Police
 
 on:
-  # Triggers the workflow on pull request events
   pull_request:
-    branches: [ develop ]
+    branches: [ develop, master ]
 
 jobs:
   check:
@@ -17,6 +20,6 @@ jobs:
         with:
           version: 1
 
-      - name: Check for eve
+      - name: Check for bad protocol
         # exits with 0 if grep found term, 1 if not
         run: grep -qc 'git+ssh' package-lock.json; test $? -ne 0
