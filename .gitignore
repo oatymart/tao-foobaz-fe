@@ -64,8 +64,6 @@ typings/
 /dist
 css/
 
-# phpstorm files
+# IDE files
 .idea/
-
-# VSCode settings
 .vscode/
