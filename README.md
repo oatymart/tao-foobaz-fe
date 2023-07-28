@@ -34,3 +34,5 @@ Dummy extension for testing npm releasing
 12. test: reporelease command
 13. chore: release with --release-version
 14. test: remove phpParser changes
+15. 2022 publish
+16. feat: addLabel
